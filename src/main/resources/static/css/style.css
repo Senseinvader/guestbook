@@ -1,0 +1,46 @@
+body {
+margin: 0;
+padding: 0;
+}
+
+div.main-content {
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 100%;
+}
+
+h1 {
+display: flex;
+align-self: center;
+}
+
+form {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-self: center;
+width: 80%;
+}
+
+div.input label {
+position: block;
+float: left;
+width: 100%;
+}
+
+div.input {
+width: 100%;
+}
+div.input input.subject {
+width: 100%;
+}
+div.input textarea {
+width: 100%;
+}
+input.button {
+display: flex;
+align-self: center;
+width: 20%;
+text-align: center;
+}

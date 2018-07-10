@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guest book</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main-content">
+        <h1>My guest book</h1>
+        <div class="guest-messages">
+        </div>
+        <form action="submit" method="post" class="my-form">
+            <div class="input">
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." rows="6" required></textarea>
+                <p id="err-message-fn"></p>
+            </div>
+            <div class="input">
+                <label for="name">Name</label>
+                <input type="text" class="subject" id="name" name="username" placeholder="Your name" required>
+                <p id="err-name-fn"></p>
+            </div>
+            <input type="submit" class="button" id="login-button" name="submit" value="Submit" >
+        </form>
+    </div>
+
+</body>
+</html>
